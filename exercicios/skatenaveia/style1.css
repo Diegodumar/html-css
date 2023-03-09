@@ -63,6 +63,10 @@ header{
         text-align: center;
 }
 
+#tpg1{
+        font-size: calc(2em + 2vw);  
+}
+
 
 
 #tpg2{
@@ -71,8 +75,17 @@ header{
         font-size: 3em;
         text-align: center;
         color: var(--cor3);
+        font-size: calc(2em + 2vw);
 }
 
+#musicath{
+
+        border-color: #f70202;
+        margin-top: 20px;
+        
+}
+        
+}
 
 
 .menu{
@@ -83,7 +96,7 @@ header{
 
 #menuprincipal{
         font-family: var(--font-destaque);
-        font-size: 1.5em;
+        font-size: 1.3em;
         text-decoration: none;
         margin-right: 30px;
         color: white;
