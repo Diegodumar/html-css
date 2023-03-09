@@ -46,7 +46,7 @@ header{
 #pg1{
         font-size: calc(2em + 2vw);
         color: black;
-        text-shadow: 4px 3px 10px  var(--cor3);
+        text-shadow: 4px 3px 10px  rgb(17, 237, 17);
         text-align: center;
         padding: 20px;
 }
