@@ -78,12 +78,11 @@ header{
         font-size: calc(2em + 2vw);
 }
 
-#musicath{
-
-        border-color: #f70202;
-        margin-top: 20px;
+audio{
+        display:inline;
+        margin-top: 10px;
         
-}
+        
         
 }
 
@@ -197,6 +196,8 @@ nav{
 #p1{
         line-height: 1.5em;
         text-align: justify;
+        columns: 2 ;
+        column-gap: 20px;
 }
 
 #p2{
