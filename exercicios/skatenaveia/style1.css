@@ -36,7 +36,6 @@ header{
         text-align: center;
         font-family: var(--font-destaque);
         color: var(--cor0);
-        background-image: linear-gradient(to bottom, var(rgb(0, 0, 0)), var(rgb(184, 183, 183)));
         margin: 0px;
         padding: 10px;
         min-height: 150px;
@@ -74,17 +73,14 @@ header{
         font-family: var(--font-destaque);
         font-size: 3em;
         text-align: center;
-        color: var(--cor3);
+        text-shadow: 4px 3px 10px  rgb(17, 237, 17);
+        color: black;
         font-size: calc(2em + 2vw);
 }
 
-audio{
-        display:inline;
-        margin-top: 10px;
-        
-        
-        
-}
+audio::-webkit-media-controls-panel {
+        background-color: #0000009a; /* mude a cor aqui para a sua preferida */
+      }
 
 
 .menu{
@@ -172,7 +168,9 @@ h3{
 }
 
 h4{
-        font-family: var(--font-destaque);
+        color: white;
+        font-size: 0.8em;
+        font-family:;
         text-align: center;
         margin: 15px;
 }
@@ -217,6 +215,9 @@ nav{
         background-image: linear-gradient(to right, rgb(24, 47, 24), transparent);
         height: 15px;  
         margin-bottom: 30px;    
+}
+img{
+        border-radius: 10px;
 }
 
 
