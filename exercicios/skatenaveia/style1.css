@@ -26,9 +26,12 @@
 }
 
 body{
-        background-color: #000000ee;
+        background-image: url('img/darkskategrafite.jpg');
         color: rgb(200, 195, 195) ;
         font-family: Arial, Helvetica, sans-serif; 
+}
+#hprincipal{
+        background-image: linear-gradient(to bottom, black, rgb(29, 12, 12));
 }
 
 header{
@@ -45,12 +48,13 @@ header{
 #pg1{
         font-size: calc(2em + 2vw);
         color: black;
-        text-shadow: 4px 3px 10px  rgb(17, 237, 17);
+        text-shadow: 4px 3px 10px  rgb(255, 255, 255);
         text-align: center;
         padding: 20px;
 }
 
 #pc{
+        margin-bottom: 10px;
         text-align: center;
         font-size: 14px;
         color: rgba(230, 224, 224, 0.866);
@@ -63,7 +67,7 @@ header{
 }
 
 #tpg1{
-        font-size: calc(2em + 2vw);  
+        font-size: calc(1.5em + 1.5vw);  
 }
 
 
@@ -73,23 +77,41 @@ header{
         font-family: var(--font-destaque);
         font-size: 3em;
         text-align: center;
-        text-shadow: 4px 3px 10px  rgb(17, 237, 17);
+        text-shadow: 4px 3px 10px  white;
         color: black;
         font-size: calc(2em + 2vw);
 }
 
 audio::-webkit-media-controls-panel {
-        background-color: #0000009a; /* mude a cor aqui para a sua preferida */
+
+        background-image:url('img/playeraudio.png') ; /* mude a cor aqui para a sua preferida */
+      }
+      audio::-webkit-media-controls-play-button {
+        border-radius: 10px;
+        background-color: rgb(116, 33, 33); /* cor do botão de play */
+      }
+      
+      audio::-webkit-media-controls-pause-button {
+        background-color: rgb(199, 16, 16); /* cor do botão de pause */
+      }
+      
+    
+      
+      audio::-webkit-media-controls-current-time-display,
+      audio::-webkit-media-controls-time-remaining-display {
+        color: #fff; /* cor do texto de tempo */
       }
 
 
 .menu{
+        
         text-align: center;
         padding: 10px;
         background-color:rgba(0, 0, 0, 0.468);
 }
 
 #menuprincipal{
+        
         font-family: var(--font-destaque);
         font-size: 1.3em;
         text-decoration: none;
@@ -99,17 +121,24 @@ audio::-webkit-media-controls-panel {
 }
 
 a{
+        
         text-decoration: none;
         color: white;
 }
 
 #menuprincipal:hover {
         
-        color: rgb(17, 237, 17);
+        display: ;
+        font-size: 2em;
+        color: rgb(116, 33, 33);
 }
 
 a:hover{
-        color: rgb(17, 237, 17);
+        
+        font-size: 1.5em;
+        font-family: var(--font-destaque);
+        color: white;
+        
 }
 
 #mp1{
@@ -144,7 +173,8 @@ article {
 }
 
 #destaque {
-        color: var(--cor3);
+        color: white;
+        
 }
 
 
@@ -194,8 +224,7 @@ nav{
 #p1{
         line-height: 1.5em;
         text-align: justify;
-        columns: 2 ;
-        column-gap: 20px;
+        
 }
 
 #p2{
@@ -220,6 +249,10 @@ img{
         border-radius: 10px;
 }
 
+#artigoglobo{
+        
+        text-align: center;
+}
 
 
 
